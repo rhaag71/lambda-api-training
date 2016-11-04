@@ -1,0 +1,22 @@
+{
+ "name": "SlackBug",
+  "version": "0.0.1",
+  "description": "Lambda exercise",
+  "author": "Browns AWS CAI Training team",
+  "main": "index.js",
+  
+  "dependencies": {
+    "querystring": "*",
+    "http": "*",
+    "request": "*"
+  },
+  
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  
+  "scripts": {
+    "zip": "zip -r -u ../lambda-fctn-browns.zip *"
+  }
+}

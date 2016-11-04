@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+https://api.trello.com/1/cards?key=2fc062d3472c04cc41aecb6cf31db6cf&token=cecfdfdf2374dd64736a15b61946477b3b6bd21616240d3c7392df14377d32b4&name=test+card&idList=5784db06979c10df2cda7760
+
+
+token=Xei5Q9QGMg1PtHwBwJhdGNqX&team_id=T18GSBW6S&team_domain=cai-mobileconnect&channel_id=C1BUWSAFQ&channel_name=supplyconnect&user_id=U1C05MDAM&user_name=rhaag&command=%2Fbug&text=hello&response_url=https%3A%2F%2Fhooks.slack.com%2Fcommands%2FT18GSBW6S%2F99893107607%2FubPLpywHUKKG8WAtMVy9iZcW
+
+
+
+
+https://<url>/card/bug/
+
+Key:
+2fc062d3472c04cc41aecb6cf31db6cf
+
+
+Name of app in Slack or Trello:
+slackbug
+
+Token:
+cecfdfdf2374dd64736a15b61946477b3b6bd21616240d3c7392df14377d32b4
+
+Grant app permissions for Trello:
+https://trello.com/1/connect?key=2fc062d3472c04cc41aecb6cf31db6cf&name=MyApp&response_type=token&scope=read,write
+
+List "id list":
+5784db06979c10df2cda7760
+
+
+URL to POST to Trello:
+https://api.trello.com/1/cards?key=2fc062d3472c04cc41aecb6cf31db6cf&token=cecfdfdf2374dd64736a15b61946477b3b6bd21616240d3c7392df14377d32b4&name=test+card&idList=5784db06979c10df2cda7760
+
+URL to POST to Lambda/API-Gateway:
+https://cnl4nndzh1.execute-api.us-west-2.amazonaws.com/dev/card/bug
